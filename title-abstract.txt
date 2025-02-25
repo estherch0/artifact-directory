@@ -2,4 +2,17 @@ Title:
 Efficient Common Sense in Large Language Models via Knowledge Graph Compression
 
 Abstract:
-Commonsense knowledge is foundational for reasoning and decision making tasks, yet large language models (LLMs) can struggle with implicit knowledge. Knowledge graphs provide a rich source of structured commonsense relationships. However, the size and complexity of these graphs make traditional processing computationally expensive, particularly for capturing longrange dependencies. While graph neural networks (GNNs) are effective for graph-based tasks, they often struggle with scalability; transformers, capable of capturing long-range dependencies, scale poorly with graph size. A possible solution is provided by compressed knowledge graphs. Efficiently compressing knowledge graphs enables faster processing and training while also maintaining accuracy and performance of the final model. To address this, we propose an efficient knowledge graph compression method that selectively retains relevant commonsense relationships. By refining the structure of knowledge graphs, we aim to improve LLMs’ ability to integrate commonsense knowledge for tasks such as semantic reasoning and abductive inference. Our approach uses a transformer based architecture to enhance scalability and preserve essential long range relationships, maintaining key knowledge while ensuring diversity in generated outputs. Using datasets like ComVE and αNLG, we benchmark the effectiveness of our method while also improving computational efficiency. By bridging the gap between large-scale graph-based knowledge and LLMs, our work contributes to more efficient and context-aware commonsense reasoning in NLP applications.
+Commonsense knowledge is foundational for reasoning and decision making
+tasks, yet large language models (LLMs) can struggle with implicit knowledge. Knowledge graphs provide a rich source of structured commonsense
+relationships. However, the size and complexity of these graphs make traditional processing computationally expensive, particularly for capturing longrange dependencies. While graph neural networks (GNNs) are effective for
+graph-based tasks, they often struggle with scalability; transformers, capable of capturing long-range dependencies, scale poorly with graph size. A
+possible solution is provided by compressed knowledge graphs. Efficiently
+compressing knowledge graphs enables faster processing and training while
+also maintaining accuracy and performance of the final model. To address
+this, we propose an efficient knowledge graph compression method that selectively retains relevant commonsense relationships. By refining the structure of knowledge graphs, we aim to improve LLMs’ ability to integrate commonsense knowledge for tasks such as semantic reasoning and abductive inference. Our approach uses a transformer-based architecture to enhance
+scalability and preserve essential long range relationships, maintaining key
+knowledge while ensuring diversity in generated outputs. Using datasets like
+ComVE and αNLG, we benchmark the effectiveness of our method while also
+improving computational efficiency. By bridging the gap between large-scale
+graph-based knowledge and LLMs, our work contributes to more efficient and
+context-aware commonsense reasoning in NLP applications.
